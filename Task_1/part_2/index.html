@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="img">
+            <img src="img/360_F_648694278_haC94bdL26EedqLMIbMpLACqzxwuvq4f.jpg" alt="doctor">
+        </div>
+        <div class="form">
+            <h1>Doctor Appointment Form</h1>
+            <hr>
+            <form action="">
+                <label for="date">Appointment <br>
+                    Date</label>
+                <input type="date" name="date" id="date">
+                <br>
+                <label for="time">Appointment <br>
+                    Time</label>
+                <input type="time" name="time" id="time">
+                <br>
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" id="firstname" placeholder="First">
+                <input type="text" name="lastname" id="lastname" placeholder="Last">
+                <br>
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+                <br>
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" placeholder="###">
+                <br>
+                <textarea name="query" id="query" placeholder="Your query..."></textarea>
+                <br>
+                <label for="date">Appointment <br> Type</label>
+                <p>Select which appointment type(s) you require</p>
+                <input type="checkbox" name="appointmenttype" id="inperson" checked>
+                <label for="inperson">Cervix checkup</label>
+                <br>
+                <input type="checkbox" name="appointmenttype" id="Heart checkup" checked>
+                <label for="Heart checkup">Heart checkup</label>
+                <br>
+                <input type="checkbox" name="appointmenttype" id="Eye check-up">
+                <label for="Eye check-up">Eye check-up</label>
+                <br>
+                <input type="checkbox" name="appointmenttype" id="Hearing Test">
+                <label for="Hearing Test">Hearing Test</label>
+                <br>
+                <input type="submit" value="send">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 16px 50px rgba(0, 0, 0, 0.08);
+}
+
+.img {
+
+    width: 50%;
+    padding: 10px;
+}
+
+.img img {
+    width: 100%;
+    border-radius: 16px;
+    display: block;
+}
+
+.form {
+    width: 50%;
+    padding: 10px 0;
+}
+
+.form h1 {
+    font-size: 34px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.form hr {
+    width: 90%;
+    border: 3px solid rgb(255, 81, 0);
+    margin: 0 auto 30px auto;
+}
+
+.form label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.form input[type="text"]#firstname,
+.form input[type="text"]#lastname {
+    width: 48%;
+    display: inline-block;
+}
+    
+.form input[type="checkbox"],
+.form input[type="radio"] {
+    
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.form input[type="submit"] {
+    width:20%;
+    padding: 12px 24px;
+    background-color: rgb(255, 81, 0);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form input[type="submit"]:hover {
+    background-color: rgb(255, 120, 0);
+}
+
+.form p {
+    margin-bottom: 12px;
+    display: block;
+    color: #333;
+}

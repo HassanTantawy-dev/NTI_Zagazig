@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(3, 35, 74);
+}
+.head{
+    color: rgb(170, 148, 8);
+    font-size: 50px;
+    margin-top: 20px;
+}
+.head-1{
+    color: rgba(255, 255, 255, 0.54);
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container{
+    background-color: rgb(0, 59, 114);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: "Moon Dance", cursive;
+}
+.container p{
+    display: inline-block;  
+    font-size: 20px;
+    color: #00000075;
+}
+.card{
+    float: left;
+    width: 48%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.card img{
+    width: 40%;
+    float:right;
+    object-fit: cover;
+}
