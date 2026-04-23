@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    display: grid;  
+    gap: 10px;
+    height: 80vh;
+    border: 3px solid black;
+    grid-template-areas: 
+    "child1 child2 child2 child3"
+    "child1 child4 child5 child6"
+    "child1 child7 child8 child6";
+}
+.child1{
+    background-color: red;
+    grid-area: child1;
+}
+.child2{
+    background-color: green;
+    grid-area: child2;
+}
+.child3{
+    background-color: blue;
+    grid-area: child3;
+}
+.child4{
+    background-color: rgb(155, 102, 4);
+    grid-area: child4;
+}
+.child5{
+    background-color: purple;
+    grid-area: child5;
+}
+.child6{
+    background-color: orange;
+    grid-area: child6;
+
+}
+.child7{
+    background-color: rgb(0, 119, 255);
+    grid-area: child7;
+}
+.child8{
+    background-color: rgb(5, 53, 23);
+    grid-area: child8;
+}
+@media (max-width: 576px) {
+    .parent{
+        grid-template-areas: 
+        "child1"
+        "child2"
+        "child3"
+        "child4"
+        "child5"
+        "child6"
+        "child7"
+        "child8";
+    }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+    .parent{
+        grid-template-areas: 
+        "child1 child1 child2 child3"
+        "child1 child1 child4 child5"
+        "child1 child1 child6 child7"
+        "child1 child1 child8 child8";
+    }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+    .parent{
+        grid-template-areas: 
+        "child1 child1 child2 child3"
+        "child1 child1 child4 child5"
+        "child1 child1 child6 child7"
+        "child1 child1 child8 child8";
+    }
+}
