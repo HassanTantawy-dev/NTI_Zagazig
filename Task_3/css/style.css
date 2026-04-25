@@ -302,18 +302,21 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin: 10px;
     border: 2px solid #c7c7c7;
-    
+
 }
+
 .card_2 p {
 
     display: inline;
     margin-left: 10px;
 }
-.card_2:hover p{
+
+.card_2:hover p {
     color: #e43c5c;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
+
 .card_2:hover {
     border: 2px solid #e43c5c;
     cursor: pointer;
@@ -324,26 +327,29 @@
 /* end services section */
 
 /* start call section */
-.call{
+.call {
     background: linear-gradient(rgba(0, 0, 0, 0.6)), url(../img/cta-bg.jpg);
-    background-size: cover;    
+    background-size: cover;
     height: 400px;
     background-attachment: fixed;
     width: 100%;
     text-align: center;
     padding: 100px 0;
 }
-.call h2{
+
+.call h2 {
     color: white;
     margin-bottom: 20px;
     font-size: 30px;
 }
-.call p{
+
+.call p {
     color: white;
     margin-bottom: 20px;
     font-size: 15px;
 }
-.call button{
+
+.call button {
     padding: 12px 46px;
     border: 2px solid #eeeeeed8;
     background: transparent;
@@ -351,10 +357,12 @@
     border-radius: 62px;
     cursor: pointer;
 }
-.call button:hover{
+
+.call button:hover {
     background: rgb(250, 28, 72);
     border: none;
 }
+
 /* end call section */
 
 /* start portfilio section */
@@ -441,7 +449,8 @@
     object-fit: cover;
     transition: transform 0.3s ease-in-out;
 }
-.portfolio-overlay{
+
+.portfolio-overlay {
     position: absolute;
     top: 100%;
     left: 0;
@@ -451,37 +460,39 @@
     transition: all .3s ease-in-out;
     width: 100%;
 }
-.portfolio-grid .portfolio-item h4{
+
+.portfolio-grid .portfolio-item h4 {
     font-size: 20px;
     color: #000;
-    background-color: transparent ;
+    background-color: transparent;
     width: 100%;
-    text-align: center; 
+    text-align: center;
 }
-.portfolio-grid .portfolio-item p{
+
+.portfolio-grid .portfolio-item p {
     font-size: 14px;
-    color: #333 ;
+    color: #333;
     display: inline-block;
 }
-.portfolio-icons{
+
+.portfolio-icons {
     display: flex;
     justify-content: center;
     gap: 10px;
     margin-top: 10px;
 }
-.portfolio-icons a{
+
+.portfolio-icons a {
     text-decoration: none;
     color: #333;
     font-size: 20px;
 }
-.portfolio-icons a:hover{
+
+.portfolio-icons a:hover {
     color: #e43c5c;
 }
 
 
-
-
-/* Grid placement for masonry effect */
 .portfolio-item.item-1 {
     grid-column: span 2;
     grid-row: span 3;
@@ -526,9 +537,166 @@
     grid-column: span 2;
     grid-row: span 1;
 }
-.portfolio-item:hover .portfolio-overlay{
-    top: 85%;
 
+.portfolio-item:hover .portfolio-overlay {
+    top: 85%;
 }
 
 /* end portfilio section */
+
+/* start pricing section */
+.pricing {
+    padding: 80px 0;
+}
+
+.pricing-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.pricing h4 {
+    color: #e43c5c;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 60px;
+    background-color: #e6d1d5;
+    width: 7%;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.pricing h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 60px;
+    color: #333;
+}
+
+.pricing h2 span {
+    color: #e43c5c;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.pricing-card {
+    background: white;
+    border-radius: 15px;
+    padding: 40px 30px;
+    width: 300px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
+.pricing-card.featured {
+    border: 3px solid #e43c5c;
+    transform: scale(1.05);
+}
+
+.pricing-card h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.icon-circle {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #e43c5c 0%, #f17a9c 100%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.icon-circle i {
+    color: white;
+    font-size: 36px;
+}
+
+.price {
+    margin: 30px 0;
+}
+
+.price .currency {
+    font-size: 20px;
+    color: #e43c5c;
+}
+
+.price .amount {
+    font-size: 48px;
+    color: #e43c5c;
+    font-weight: bold;
+}
+
+.price .period {
+    font-size: 14px;
+    color: #999;
+}
+
+.features {
+    list-style: none;
+    text-align: left;
+    margin: 30px 0;
+}
+
+.features li {
+    padding: 10px 0;
+    font-size: 14px;
+    color: #666;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.features li i {
+    color: #e43c5c;
+    margin-right: 10px;
+}
+
+.features li.disabled {
+    color: #ccc;
+}
+
+.features li.disabled i {
+    color: #ccc;
+}
+
+.buy-btn {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 30px;
+    border: 2px solid #ddd;
+    background: white;
+    color: #333;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+
+.buy-btn:hover {
+    background: #e43c5c;
+    color: white;
+    border-color: #e43c5c;
+}
+
+.pricing-card.featured .buy-btn {
+    background: #e43c5c;
+    color: white;
+    border-color: #e43c5c;
+}
+
+.pricing-card.featured .buy-btn:hover {
+    background: #d62e50;
+    border-color: #d62e50;
+}
+
+/* end pricing section */
