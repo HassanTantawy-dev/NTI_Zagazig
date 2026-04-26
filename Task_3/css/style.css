@@ -706,7 +706,8 @@
 .frequently {
     margin-top: 30px;
 }
-.frequently h4{
+
+.frequently h4 {
     color: #e43c5c;
     margin: auto;
     text-align: center;
@@ -718,41 +719,112 @@
     font-size: 12px;
     letter-spacing: 1px;
 }
-.frequently h2{
+
+.frequently h2 {
     text-align: center;
     font-size: 36px;
     margin-bottom: 60px;
     color: #333;
 }
-.frequently h2 span{
+
+.frequently h2 span {
     color: #e43c5c;
 }
-.frequently-content{
+
+.frequently-content {
     width: 80%;
     margin: 0 auto;
 }
 
-.frequently-content div{
+.frequently-content div {
     display: flex;
     justify-content: space-between;
 }
-.frequently-content p{
+
+.frequently-content p {
     display: inline-block;
 }
 
-.frequently-content div{    
+.frequently-content div {
     padding: 30px 20px;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-.frequently-content :hover p{
+
+.frequently-content :hover p {
     color: #e43c5c;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
+
 .frequently-content div:hover {
     border: #e43c5c 1px solid;
     margin-bottom: 20px;
 }
 
 /* end frequently section */
+
+/* satrt people section  */
+.chair {
+    margin-top: 40px;
+}
+
+.chair h4 {
+    color: #e43c5c;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 60px;
+    background-color: #e6d1d5;
+    width: 8%;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.chair h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 60px;
+    color: #333;
+}
+
+.chair h2 span {
+    color: #e43c5c;
+}
+
+.parent-3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 16px;
+}
+
+.card {
+    background-color: #f5f5f5;
+}
+
+.card img {
+    width: 300px;
+}
+
+.card h3 {
+    margin-top: 15px;
+    text-align: center;
+    color: #8b8585;
+}
+
+.card p {
+    text-align: center;
+    color: #a19898;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
