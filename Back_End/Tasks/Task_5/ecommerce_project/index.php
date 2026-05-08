@@ -8,10 +8,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
     <style>
         .site-header {
-            background-image: url('images/header.jpg');
+            background-image: url('https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=1400');
             background-size: cover;
             background-position: center;
-            background-color: #333;
             height: 400px;
             display: flex;
             align-items: center;
